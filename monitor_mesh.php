@@ -35,7 +35,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Define telemetry function
+// Define function to process JSON message into MySQL tables
 function process_JSON($data, $type) {
     global $conn;
 
