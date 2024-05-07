@@ -7,7 +7,7 @@ This PHP-CLI script is designed to be run as a shell script in a LMPM configurat
 
 Dependencies are as follows:
 
-php8.2-cli (see <a href='[test](https://php.watch/articles/install-php82-ubuntu-debian)'>here</a> for installation instructions) 
+php8.2-cli (see <a href='https://php.watch/articles/install-php82-ubuntu-debian'>here</a> for installation instructions) 
 
 php8.2-mysql (use "sudo apt install php8.2-mysql" after installing php8.2-cli)
 
