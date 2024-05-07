@@ -50,4 +50,4 @@ If you want to run it and view what's happening, just run it like this: "./monit
 # Caveats
 Meshtastic JSON messages contain some fields/elemtents that are reserved keywords in MySQL (for example, 'from', 'timestamp', and 'to)
 
-To get around any issues you have with interacticing with these columns in MySQL, escape them with back ticks, like this: "SELECT payload_text, `from` FROM text WHERE payload_text IS NOT NULL"
+To get around any issues you have with interacticing with these columns in MySQL, escape them with back ticks, like this: "SELECT payload_text, \`from\` FROM text WHERE payload_text IS NOT NULL"
