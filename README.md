@@ -32,7 +32,7 @@ PhpMqtt (use "composer require php-mqtt/client")
 
 Your own local MQTT server (I use Mosquitto), configured to allow anonymous access
 
-Your own local mysql-server - the database schema is provided meshtastic.sql
+Your own local mysql-server - the database schema is provided in meshtastic.sql
 
 # Instructions:
 1) Setup your MQTT server, and configure it to allow anonymous access
