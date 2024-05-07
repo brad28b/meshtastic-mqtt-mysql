@@ -48,7 +48,7 @@ If you want to run in background mode, detached from your shell: "nohup ./monito
 If you want to run it and view what's happening, just run it like this: "./monitor_mesh.php"
 
 # Caveats
-Meshtastic JSON messages contain some fields/elements that are reserved keywords in MySQL (for example, 'from', 'timestamp', and 'to)
+Meshtastic JSON messages contain some fields/elements that are reserved keywords in MySQL (for example, 'from', 'timestamp', and 'to')
 
 To get around any issues you have with interacting with these columns in MySQL, escape them with back ticks, like this:
 
