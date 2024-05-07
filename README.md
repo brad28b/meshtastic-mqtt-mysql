@@ -7,8 +7,12 @@ This PHP-CLI script is designed to be run as a shell script in a LMPM configurat
 Dependencies are as follows:
 
 php-cli8.2 see <a href='test'>here</a> for installation instructions 
+
 php-mysql8.2
+
 PhpMqtt
+
 Your own local MQTT server (I use Mosquitto), configured to allow anonymous access
+
 Your own local mysql-server
 
