@@ -3,7 +3,7 @@ This PHP-CLI script, which is run as a shell script daemon, runs permanently in 
 
 Assumed infrastructure layout is: Your Meshtastic Node => Your local MQTT server => PHP-CLI MQTT subscriber => MySQL server
 
-This script will capture the JSON messages your node hears, and push them into MySQL. It will capture JSON mesh messages of the following types:
+This script will capture JSON mesh messages of the following types:
 
 nodeinfo
 
