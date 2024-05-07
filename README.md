@@ -22,7 +22,7 @@ This PHP-CLI script is designed to be run as a shell script in a LMPM configurat
 
 Dependencies are as follows:
 
-A meshtastic ESP32V3 based Meshtastic node (nRF nodes don't support MQTT => JSON currently).
+A meshtastic ESP32V3 based node, for example, a Heltec V3 (nRF nodes don't support MQTT => JSON currently).
 
 php8.2-cli (see <a href='https://php.watch/articles/install-php82-ubuntu-debian'>here</a> for installation instructions) 
 
