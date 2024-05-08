@@ -37,11 +37,12 @@ Your own local mysql-server - the database schema is provided in meshtastic.sql
 # Instructions:
 1) Setup your MQTT server, and configure it to allow anonymous access
 2) Configure your Meshtastic node to publish MQTT messages to the IP address of your MQTT server, using the topic "Meshtastic". Make sure that the JSON option is enabled.
-3) Create your MySQL database. Call the database 'meshtastic'. You can use the database schema found in file meshtastic.sql
-4) Create a user on your MySQL server, and grant it the necessary permissions to read and write to the database.
-5) Edit monitor_mesh.php, and add in the credential values for your MQTT and MYSQL servers, and your Meshtastic node ID.
-6) Give monitor_mesh.php execute permissions, using "chmod +x monitor_mesh.php"
-7) To run monitor_mesh.php:
+3) Make sure that your main (Longfast) channel (usually 0) is set to send MQTT messages from the mesh (in your smart phone Meshtastic app, ensure "Uplink enabled" is checked)
+4) Create your MySQL database. Call the database 'meshtastic'. You can use the database schema found in file meshtastic.sql
+5) Create a user on your MySQL server, and grant it the necessary permissions to read and write to the database.
+6) Edit monitor_mesh.php, and add in the credential values for your MQTT and MYSQL servers, and your Meshtastic node ID.
+7) Give monitor_mesh.php execute permissions, using "chmod +x monitor_mesh.php"
+8) To run monitor_mesh.php:
 
 If you want to run in background mode, detached from your shell: "nohup ./monitor_mesh.php &> /dev/null &disown"
 
