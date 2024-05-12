@@ -54,3 +54,7 @@ Meshtastic JSON messages contain some fields/elements that are reserved keywords
 To get around any issues you have with interacting with these columns in MySQL, escape them with back ticks, like this:
 
 "SELECT payload_text, \`from\` FROM text WHERE payload_text IS NOT NULL"
+
+Fields of type 'timestamp' are stored in the format they are receieved (Unix Epoch). Select these in a friendly format like this:
+
+"SELECT FROM_UNIXTIME(timestamp) FROM nodeinfo"
