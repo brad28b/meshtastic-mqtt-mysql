@@ -1,4 +1,8 @@
-Note: If you prefer Python, I've ported this script to Python <a href='https://github.com/brad28b/meshtastic-mqtt-mysql-python/'>here</a>
+Note:
+
+If you prefer Python, I've ported this script to Python <a href='https://github.com/brad28b/meshtastic-mqtt-mysql-python/'>here</a>
+
+If you prefer C++, I've ported this script to C++ <a href='https://github.com/brad28b/meshtastic-mqtt-mysql-cpp'>here</a>
 
 # meshtastic-mqtt-mysql
 
