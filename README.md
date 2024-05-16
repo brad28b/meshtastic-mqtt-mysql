@@ -1,3 +1,5 @@
+Note: If you prefer Python, I've ported this script to Python <a href='https://github.com/brad28b/meshtastic-mqtt-mysql-python/'>here</a>
+
 # meshtastic-mqtt-mysql
 
 This PHP-CLI script, which is run as a shell script daemon, runs permanently in the background, subscribes to the Meshtastic JSON topic on your MQTT server, captures messages delivered from the mesh via MQTT, and imports them into MySQL tables.
